@@ -29,10 +29,9 @@
     "jshint-groups": "0.6.0"
   },
   "scripts": {
-    "postinstall": "bower-npm-install --non-interactive",
-    "deps": "bower-npm-install --non-interactive",
-    "lint": "jshint-groups && jscs . && csscomb -vl .",
-    "test": "npm run lint"
+    "deps": "bower-npm-install",
+    "build": "npm run deps",
+    "lint": "jshint-groups && jscs . && csscomb -vl ."
   },
   "private": true
 }
