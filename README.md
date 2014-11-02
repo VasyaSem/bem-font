@@ -1,6 +1,9 @@
 bem-font (dev) [![Build Status](https://travis-ci.org/voischev/bem-font.svg?branch=master)](https://travis-ci.org/voischev/bem-font)
 ========
 
+В этой библитеке мы постараемся собрать самый лучший набор открытых веб-шрифтов. 
+Так же упор будет сделан на скорость загрузки шрифтов.
+
 ## Использование в bem проектах
 
 Подключить в сборку проекта в make файле.
@@ -22,4 +25,9 @@ bem-font (dev) [![Build Status](https://travis-ci.org/voischev/bem-font.svg?bran
 ## Fonts
 
 - [Grands](http://grawl.github.io/Grands/) (social icons)
-- PT Sans [Альтернатива](http://www.google.com/fonts)
+- PT Sans 
+
+
+## Поддержка браузерами 
+
+Шрифты в формате [WOFF](http://caniuse.com/#search=woff) зашифрованы в [BASE64](http://caniuse.com/#search=base64) сейчас поддерживаются всеми последними версиями браузеров, кроме Opera-Mini.
