@@ -7,8 +7,5 @@
     ".bem/cache",
     "node_modules",
     "libs"
-  ],
-  "dependencies": {
-    "bem-components": "git://github.com/bem/bem-components#v2"
-  }
+  ]
 }
